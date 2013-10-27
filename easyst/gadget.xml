@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+  <name>簡易ストップウォッチ</name>
+  <version>1.0.0.0</version>
+  <author name="tessho7">
+    <info url="https://github.com/tessho7/win7-gadgets" />
+    <logo src="images/logo.png" />
+  </author>
+  <copyright>(C) tessho7 2013</copyright>
+  <description>経過時間を表示します。</description>
+  <icons>
+    <icon height="48" width="48" src="images/icon.png" />
+  </icons>
+  <hosts>
+    <host name="sidebar">
+      <base type="HTML" apiVersion="1.0.0" src="main.html" />
+      <permissions>Full</permissions>
+      <platform minPlatformVersion="1.0" />
+      <defaultImage src="images/icon.png" />
+    </host>
+  </hosts>
+</gadget>

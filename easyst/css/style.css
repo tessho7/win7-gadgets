@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+body  {
+	margin		: 0px;
+	padding		: 0px;
+	width		: 130px;
+	height		: 75px;
+	font-family	: 'ＭＳ ゴシック', Consolas, 'Courier New', Courier, Monaco, monospace;
+	font-size	: 14px;
+	line-height	: 1.2;
+	color		: black;
+	background-color	: red;
+	background-image	: url(../images/logo.png);
+}
+
+#container {
+	position	: relative;
+	width		: 100%;
+	height		: 100%;
+	border		: solid 2px gray;
+	overflow	: hidden;
+}
+
+#imgBackground {
+}
+
+#display {
+	background	: #3498db;
+	color		: white;
+	font-size	: 18px;
+	font-weight	: bold;
+}
+	#display #timer_hms {
+		color		: white;
+		font-size	: 18px;
+		font-weight	: bold;
+		line-height	: 1;
+	}
+	#display #timer_ms {
+		color		: white;
+		font-size	: 11px;
+		font-weight	: bold;
+		line-height	: 1;
+	}
+
+.btn {
+	margin		: 0px;
+	border		: solid 1px #ccc;
+	padding		: 3px;
+	width		: 100%;
+/*	font-family	: 'ＭＳ ゴシック', Consolas, 'Courier New', Courier, Monaco, monospace; */
+	font-family	: Webdings;
+	font-size	: 18px;
+	line-height	: 1;
+	cursor		: pointer;
+	color		: white;
+}
+	.btn:hover {
+		border		: solid 2px #aaa;
+	}
+	#btn_start {
+		background	: #2ecc71;
+	}
+	#btn_pause {
+		background	: #f1c40f;
+	}
+	#btn_stop {
+		background	: #e74c3c;
+	}
+
